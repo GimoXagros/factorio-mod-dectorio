@@ -1,15 +1,24 @@
 # Dectorio
+
+## Source version and installation
+
+This checkout contains `Dectorio` version `0.7.5`. [info.json](info.json) declares Factorio `0.15`; this does not establish compatibility with newer Factorio versions.
+
+Select a package for your installed game version on the [Mod Portal downloads page](https://mods.factorio.com/mod/Dectorio/downloads). Portal packages may differ from this source checkout. Put the downloaded ZIP in your Factorio user data `mods` directory and install the dependencies listed in its manifest (`?` marks optional dependencies).
+
+This fork has no GitHub Releases.
+
 [![GitHub issues](https://img.shields.io/github/issues/jpanther/Dectorio.svg)](https://github.com/jpanther/Dectorio/issues) [![CrowdIn](https://d322cqt584bo4o.cloudfront.net/dectorio/localized.svg)](https://crowdin.com/project/dectorio) [![GitHub license](https://img.shields.io/github/license/jpanther/Dectorio.svg)](https://github.com/jpanther/Dectorio/blob/develop/LICENSE)
 
 A simple mod that adds decorative elements to beautify your factory. New technology research is required to unlock the various items before they can be crafted and some default recipes are adjusted to better reflect how these items should be made.
 
 Inspiration for the mod came from a lot of other mods on the Factorio mod portal, although all the assets in Dectorio have been custom made for this mod and are either modified versions of base game assets or created from scratch. If you'd like to use any of these in your own mod, please observe the GNU GPLv3 license.
 
-Requires Factorio version 0.15 or later.
+This checkout targets Factorio 0.15, as declared in `info.json`.
 
 ## How to install
 
-Download the latest stable release from the [Factorio mod portal](https://mods.factorio.com/mods/PantherX/Dectorio) or at <https://github.com/jpanther/Dectorio/releases/latest> and copy the entire zip file to your Factorio mods directory:
+Select an upstream release compatible with your Factorio version from the [Factorio mod portal](https://mods.factorio.com/mods/PantherX/Dectorio) or at <https://github.com/jpanther/Dectorio/releases/latest> and copy the entire zip file to your Factorio mods directory:
 
 * Windows: `%appdata%\Factorio\mods`
 * Mac: `~/Library/Application Support/factorio/mods/`
